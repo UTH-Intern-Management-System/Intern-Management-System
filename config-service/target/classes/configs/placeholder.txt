@@ -1,0 +1,1 @@
+Config repo placeholder. Use Git backend in real projects.
