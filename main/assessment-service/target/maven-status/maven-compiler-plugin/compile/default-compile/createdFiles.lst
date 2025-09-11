@@ -1,8 +1,0 @@
-com\example\assessment\models\Assessment.class
-com\example\assessment\controllers\AssessmentController.class
-com\example\assessment\AssessmentServiceApplication.class
-com\example\assessment\repositories\AssessmentRepository.class
-com\example\assessment\models\Kpi$KpiBuilder.class
-com\example\assessment\models\Kpi.class
-com\example\assessment\models\Assessment$AssessmentBuilder.class
-com\example\assessment\repositories\KpiRepository.class
