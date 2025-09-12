@@ -26,7 +26,7 @@ Giao tiếp qua REST API (hoặc gRPC nếu cần).
 
 Clone repository:
 
-git clone https://github.com/your-org/recruitment-service.git
+git clone https://github.com/UTH-Intern-Management-System/Intern-Management-System.git
 cd recruitment-service
 
 
