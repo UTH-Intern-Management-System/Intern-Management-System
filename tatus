@@ -1,0 +1,12 @@
+warning: in the working copy of 'main/assessment-service/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main/assessment-service/src/main/java/com/example/assessment/controllers/AssessmentController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main/assessment-service/src/main/java/com/example/assessment/models/Assessment.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main/assessment-service/src/main/java/com/example/assessment/models/Kpi.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main/assessment-service/src/main/java/com/example/assessment/repositories/KpiRepository.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main/assessment-service/src/main/resources/application.yml', LF will be replaced by CRLF the next time Git touches it
+main/assessment-service/pom.xml
+main/assessment-service/src/main/java/com/example/assessment/controllers/AssessmentController.java
+main/assessment-service/src/main/java/com/example/assessment/models/Assessment.java
+main/assessment-service/src/main/java/com/example/assessment/models/Kpi.java
+main/assessment-service/src/main/java/com/example/assessment/repositories/KpiRepository.java
+main/assessment-service/src/main/resources/application.yml

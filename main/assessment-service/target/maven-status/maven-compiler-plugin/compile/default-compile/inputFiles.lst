@@ -1,0 +1,8 @@
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\AssessmentServiceApplication.java
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\models\Assessment.java
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\controllers\AssessmentController.java
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\dto\AssessmentRequest.java
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\repositories\AssessmentRepository.java
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\config\CorsConfig.java
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\models\Kpi.java
+D:\Documents\Backend\IMS\Intern-Management-System\main\assessment-service\src\main\java\com\example\assessment\repositories\KpiRepository.java
