@@ -8,8 +8,20 @@ import java.time.Instant;
 public class Feedback {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Long fromUserId;
-    private Long toUserId;
-    @Column(length=4000) private String content;
+
+    // Align with frontend: internId (who submits), mentorId (target), rating, type/category, status, comment
+    private Long internId;
+    private Long mentorId;
+
+    private String type; // e.g. "program" | "mentor"
+    private String category; // e.g. "program_experience"
+
+    private Double rating;
+
+    @Column(length = 4000)
+    private String comment;
+
+    private String status; // e.g. "submitted", "reviewed"
+
     private Instant createdAt = Instant.now();
 }
