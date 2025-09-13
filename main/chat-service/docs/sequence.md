@@ -23,3 +23,4 @@ sequenceDiagram
   CS-->>GW: ApiResponse(ChatMessageResponse)
   GW-->>FE: 200 OK
 ```
+

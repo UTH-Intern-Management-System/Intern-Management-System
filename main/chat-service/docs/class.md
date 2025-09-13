@@ -73,3 +73,4 @@ classDiagram
   Conversation "1" o-- "*" ChatMessage
   ChatMessage "1" --> "1" ParticipantInfo
 ```
+

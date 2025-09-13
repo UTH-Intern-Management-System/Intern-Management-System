@@ -20,3 +20,4 @@ sequenceDiagram
   ChatService-->>APIGateway: ChatMessageResponse
   APIGateway-->>Frontend: 200 OK
 ```
+

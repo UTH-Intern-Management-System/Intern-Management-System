@@ -32,3 +32,4 @@ erDiagram
   CONVERSATION ||--o{ CHAT_MESSAGE : contains
   CHAT_MESSAGE }o--|| PARTICIPANT_INFO : sender
 ```
+
