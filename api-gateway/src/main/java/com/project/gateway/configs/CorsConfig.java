@@ -15,7 +15,13 @@ public class CorsConfig {
     public CorsWebFilter corsWebFilter() {
         CorsConfiguration cors = new CorsConfiguration();
         cors.setAllowCredentials(true);
-        cors.setAllowedOrigins(Arrays.asList("http://localhost:3000")); // React app
+
+        // Danh sách origin được phép gọi API
+        cors.setAllowedOrigins(Arrays.asList(
+                "http://localhost:3000",       // cho trên cùng máy
+                "http://192.168.1.20:3000"     // client trong LAN
+        ));
+
         cors.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         cors.setAllowedHeaders(Arrays.asList("*"));
 
