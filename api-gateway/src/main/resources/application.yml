@@ -1,0 +1,56 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    compatibility-verifier:
+      enabled: false
+    gateway:
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials
+      routes:
+          # RECRUITMENT SERVICE
+          - id: internships-controller
+            uri: http://localhost:8081
+            predicates:
+              - Path=/api/v1/internships/**
+          - id: intern-controller
+            uri: http://localhost:8081
+            predicates:
+              - Path=/api/v1/interns/**
+
+          # SCHEDULE SERVICE
+          - id: daily-progress-controller
+            uri: http://localhost:8082
+            predicates:
+              - Path=/api/v1/daily-progress/**
+          - id: interview-controller
+            uri: http://localhost:8082
+            predicates:
+              - Path=/api/v1/interviews/**
+          - id: skill-assessment-controller
+            uri: http://localhost:8082
+            predicates:
+              - Path=/api/v1/skill-assessments/**
+
+          # TRAINING SERVICE
+          - id: training-program-controller
+            uri: http://localhost:8083
+            predicates:
+              - Path=/api/v1/training-programs/**
+          - id: intern-trainings-controller
+            uri: http://localhost:8083
+            predicates:
+              - Path=/api/v1/intern-trainings/**
+
+          # USER SERVICE
+          - id: users-controller
+            uri: http://localhost:8080
+            predicates:
+              - Path=/api/v1/users/**
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
