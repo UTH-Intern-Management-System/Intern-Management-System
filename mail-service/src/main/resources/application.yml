@@ -29,7 +29,5 @@ spring:
 api:
   prefix: /api/v1
 twilio:
-  from-number: "+14151234567"
-  account-sid: "ACb5ce586874d4fb24d5d4a4b9920c1de3"
-  auth-token: "b88e9acd5b8ad1036f122a0f791651e3"
-  verify-service-sid: "VAabc6294a108d2ea6d257e47a9beb41e5"
+  accountSid: ${TWILIO_ACCOUNT_SID}
+  authToken: ${TWILIO_AUTH_TOKEN}
