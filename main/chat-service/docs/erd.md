@@ -33,3 +33,4 @@ erDiagram
   CHAT_MESSAGE }o--|| PARTICIPANT_INFO : sender
 ```
 
+
