@@ -1,0 +1,35 @@
+server:
+  port: 8084
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: notification-service
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  cloud:
+    compatibility-verifier:
+      enabled: false
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: quochuyw2610@gmail.com
+    password: qame rlxq zqrj xpym
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+api:
+  prefix: /api/v1
+twilio:
+  from-number: "+14151234567"
+  account-sid: "ACb5ce586874d4fb24d5d4a4b9920c1de3"
+  auth-token: "b88e9acd5b8ad1036f122a0f791651e3"
+  verify-service-sid: "VAabc6294a108d2ea6d257e47a9beb41e5"
